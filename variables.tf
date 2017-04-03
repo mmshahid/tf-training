@@ -1,7 +1,7 @@
 variable "aws_access_key" {}
 variable "aws_secret_key" {}
 variable "aws_instance_count" {
-  default = 2
+  default = 1
 }
 variable "aws_region" {
   default = "us-west-2"

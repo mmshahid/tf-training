@@ -1,4 +1,4 @@
-
+/*
 provider "dnsimple" {
   token = "${var.dnsimple_token}"
   email = "${var.dnsimple_account}"
@@ -11,3 +11,4 @@ resource "dnsimple_record" "arecord_for_web1" {
   type   = "A"
   ttl    = 3600
 }
+*/
